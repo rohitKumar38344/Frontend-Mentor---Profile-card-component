@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #222;
+  height: 100vh;
+}
+
+.container {
+  background: url(images/bg-pattern-top.svg), url(images/bg-pattern-top.svg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-size: 620px 580px, 700px;
+  background-repeat: no-repeat no-repeat;
+  background-position: top -178px left -42px, bottom -428px right -64px;
+  background-color: hsl(185, 75%, 39%);
+}
+
+.section-card {
+  width: 32rem;
+  background-color: #fff;
+  border-radius: 1.6rem;
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.top {
+  background: url(images/bg-pattern-card.svg);
+  height: 13rem;
+  position: relative;
+}
+
+.user-img {
+  width: 10rem;
+  border-radius: 50%;
+  border: 5px solid #eee;
+
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
+
+.middle {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: hsl(229, 23%, 23%);
+  text-align: center;
+  padding: 7rem;
+  padding-bottom: 2rem;
+  border-bottom: 2px solid #eee;
+}
+
+.user-name {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 1.2rem;
+}
+
+.user-city {
+  color: hsl(227, 10%, 46%);
+}
+.user-age {
+  font-weight: 400;
+  margin-left: 9px;
+  color: hsl(227, 10%, 46%);
+}
+
+.bottom {
+  display: flex;
+  gap: 2.4rem;
+  justify-content: space-around;
+  padding: 2rem 3.2rem;
+}
+
+.user-stats {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.stats {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: hsl(229, 23%, 23%);
+}
+
+.data {
+  color: hsl(0, 0%, 59%);
+}
+
+/*
+
+ FONT sizes (px)
+    10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+ SPACING SYSTEM (px)
+    2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128  
+*/
